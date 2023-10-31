@@ -462,7 +462,7 @@ nav .active-section span {
 }
 
 .Modern-Slider .NextArrow:before {
-    content: '\f105';
+    content: '>';
 }
 
 .Modern-Slider .PrevArrow {
@@ -494,7 +494,7 @@ nav .active-section span {
 }
 
 .Modern-Slider .item-1 .image {
-    background-image: url(../img/slide_1.jpg);
+    background-image: url(../img/slide_2.png);
 }
 
 .Modern-Slider .item-2 .image {
@@ -510,7 +510,7 @@ nav .active-section span {
 }
 
 .Modern-Slider .PrevArrow:before {
-    content: '\f104';
+    content: '<';
 }
 
 .Modern-Slider .item .image {
