@@ -21,6 +21,14 @@ p {
     float: right;
 }
 
+.hero_description{
+    width: 65rem;
+}
+@media(max-width:1100px){
+    .hero_description{
+        width: 30rem;
+    }
+}
 .content-section {
     padding-top: 80px;
     position: relative;
@@ -1146,7 +1154,7 @@ nav .active-section span {
         z-index: 5;
     }
     .Modern-Slider .NextArrow:before {
-        content: '\f105';
+        content: '>';
     }
     .Modern-Slider .PrevArrow {
         outline: none;

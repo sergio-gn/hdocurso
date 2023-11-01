@@ -19,11 +19,25 @@ jQuery(document).ready(function($) {
         nextArrow: '<button class="NextArrow"></button>',
     });
 
+    //////////////////// NAVBAR LOGIC
     $('#nav-toggle').on('click', function(event) {
         event.preventDefault();
         $('#main-nav').toggleClass("open");
     });
+    // Add a global click event listener to close the menu when clicking outside
+    $(document).on('click', function(event) {
+        // Check if the clicked element is not a button with the ID "nav-toggle" and not within the #main-nav
+        if (
+            !$(event.target).is('#nav-toggle') &&
+            !$(event.target).closest('#main-nav').length
+        ) {
+            // Close the menu
+            $('#main-nav').removeClass('in');
+        }
+    });
 
+
+    //////////////////// NAVBAR LOGIC
 
     $('.tabgroup > div').hide();
     $('.tabgroup > div:first-of-type').show();
