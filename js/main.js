@@ -19,11 +19,25 @@ jQuery(document).ready(function($) {
         nextArrow: '<button class="NextArrow"></button>',
     });
 
+    //////////////////// NAVBAR LOGIC
     $('#nav-toggle').on('click', function(event) {
         event.preventDefault();
         $('#main-nav').toggleClass("open");
     });
+    // Add a global click event listener to close the menu when clicking outside
+    $(document).on('click', function(event) {
+        // Check if the clicked element is not a button with the ID "nav-toggle" and not within the #main-nav
+        if (
+            !$(event.target).is('#nav-toggle') &&
+            !$(event.target).closest('#main-nav').length
+        ) {
+            // Close the menu
+            $('#main-nav').removeClass('in');
+        }
+    });
 
+
+    //////////////////// NAVBAR LOGIC
 
     $('.tabgroup > div').hide();
     $('.tabgroup > div:first-of-type').show();
@@ -116,3 +130,25 @@ jQuery(document).ready(function($) {
 
 
 });
+
+
+/***** accordion ******/
+function initAcc(elem, option){
+    document.addEventListener('click', function (e) {
+        if (!e.target.matches(elem+' .a-btn')) return;
+        else{
+            if(!e.target.parentElement.classList.contains('active')){
+                if(option==true){
+                    var elementList = document.querySelectorAll(elem+' .a-container');
+                    Array.prototype.forEach.call(elementList, function (e) {
+                        e.classList.remove('active');
+                    });
+                }            
+                e.target.parentElement.classList.add('active');
+            }else{
+                e.target.parentElement.classList.remove('active');
+            }
+        }
+    });
+    }
+initAcc('.accordion.v1', true);
