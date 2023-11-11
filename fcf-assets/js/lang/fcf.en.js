@@ -1,0 +1,1 @@
+No Content: https://hdocurso.com.br/fcf-assets/js/lang/fcf.en.js
