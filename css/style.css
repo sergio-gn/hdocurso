@@ -1249,7 +1249,7 @@ nav .active-section span {
 }
 .section-prices div {
     float: left;
-    width: 32%;
+    width: 100%;
     height: 200px;
     padding: 20px;
     background-color: #f4f4f4;
