@@ -94,15 +94,6 @@
                 ]
             }
         </script>
-        <script>
-            // Remove .html extension from URL
-            if (window.location.pathname.endsWith('.html')) {
-              history.replaceState({}, '', window.location.pathname.slice(0, -5));
-            } else if (!window.location.pathname.includes('.') && !window.location.pathname.endsWith('/')) {
-              // Add .html extension to URLs without a dot (.) and not ending with a trailing slash
-              history.replaceState({}, '', window.location.pathname + '.html');
-            }
-          </script>
           
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
