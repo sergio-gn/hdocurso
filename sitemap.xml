@@ -7,10 +7,30 @@
     <url>
         <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-espcex.html</loc>
         <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.90</priority>
+    </url>
+        <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cfo-pr.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cfo-pr.html</loc>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-afa.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cmc.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cn.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cpm.html</loc>
         <lastmod>2023-11-03T22:00:14+00:00</lastmod>
         <priority>0.80</priority>
     </url>
@@ -26,6 +46,16 @@
     </url>
     <url>
         <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-cn.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-en.html</loc>
+        <lastmod>2023-11-03T22:00:14+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://hdocurso.com.br/cursos-prepatorios-militares/preparatorio-epcar.html</loc>
         <lastmod>2023-11-03T22:00:14+00:00</lastmod>
         <priority>0.80</priority>
     </url>
