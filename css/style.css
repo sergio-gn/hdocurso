@@ -2,9 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 p {
-    font-size: 13px;
+    font-size: 1.6rem;
     color: #7a7a7a;
-    line-height: 24px;
+    line-height: auto;
 }
 .page-content {
     width: 77.5%;
