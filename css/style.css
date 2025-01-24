@@ -485,6 +485,10 @@ nav .active-section span {
     display: block;
 }
 
+.Modern-Slider .item-0 .image {
+    background-image: url(../img/matriculas.png);
+}
+
 .Modern-Slider .item-1 .image {
     background-image: url(../img/slide_2.png);
 }
