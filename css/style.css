@@ -7,7 +7,7 @@ p {
     line-height: auto;
 }
 .page-content {
-    width: 77.5%;
+    width: 85%;
     float: right;
 }
 .glass {
@@ -24,13 +24,44 @@ p {
     right: 0;
     max-width: 60rem;
 }
-@media(max-width:1100px){
+.internal_links_row{
+    display:flex!important;
+    gap: 5rem;
+}
+.internal_links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: left;
+}
+.internal_link_div{
+    position: relative;
+    line-height: 1;
+}
+.internal_links img{
+    width: 64px;
+}
+@media(orientation: portrait){
     .hero_description{
         position: unset;
         right: unset;
         max-width: unset;
         width: unset;
     }
+    .internal_links_row{
+        flex-direction: column;
+    }
+    .internal_links{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.open_badge{
+    color: rgb(0, 128, 0);
+    position: absolute;
+    background: #e3f0e3;
+    left: -1rem;
+    top: -.5rem;
+    padding: 0.5rem;
+    font-size: .9rem;
 }
 .content-section {
     padding: 1rem 60px;
@@ -188,7 +219,7 @@ header {
 /* Sidebar Style */
 
 .sidebar-navigation {
-    width: 22.5%;
+    width: 15vw;
     float: left;
     height: 100%;
     position: fixed;
@@ -1250,6 +1281,9 @@ ul.slick-dots {
     height: 300px;
     background-color: #f4f4f4;
     margin: 6px;
+}
+.section-prices{
+    display:flex;
 }
 .section-prices div {
     float: left;
