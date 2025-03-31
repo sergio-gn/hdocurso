@@ -72,9 +72,6 @@ p {
         flex-direction: column;
         gap: 1rem;
     }
-    .internal_links{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
     .content-section {
         padding: 1rem 25px;
     }
