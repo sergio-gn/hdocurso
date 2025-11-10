@@ -30,8 +30,14 @@ p {
 }
 .internal_links{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: left;
+    background: rgba(255, 255, 255, 0.08); /* translucent background */
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25); /* floating shadow */
+    backdrop-filter: blur(12px); /* glass-like effect */
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .internal_link_div{
     position: relative;
@@ -40,6 +46,7 @@ p {
 .internal_links img{
     width: 64px;
 }
+
 .content-section {
     padding: 3rem 50px;
     position: relative;
