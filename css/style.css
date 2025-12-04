@@ -77,109 +77,108 @@ p {
     .content-section.internal_links_row{
         padding:25px;
     }
-}
-.hero_description{
-    position: unset;
-    right: unset;
-    max-width: unset;
-    width: unset;
-}
-.internal_links_row{
-    flex-direction: column;
-    gap: 1rem;
-}
-.content-section {
-    padding: 1rem 25px;
-}
-.slider{
-    margin-top: 6rem;
-}
-.open_badge{
-    color: rgb(0, 128, 0);
-    position: absolute;
-    background: #e3f0e3;
-    left: -1rem;
-    top: -.5rem;
-    padding: 0.5rem;
-    font-size: .9rem;
-}
-.section-heading {
-    text-align: left;
-    margin-bottom: 15px;
-}
+    .hero_description{
+        position: unset;
+        right: unset;
+        max-width: unset;
+        width: unset;
+    }
+    .internal_links_row{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .content-section {
+        padding: 1rem 25px;
+    }
+    .slider{
+        margin-top: 6rem;
+    }
+    .open_badge{
+        color: rgb(0, 128, 0);
+        position: absolute;
+        background: #e3f0e3;
+        left: -1rem;
+        top: -.5rem;
+        padding: 0.5rem;
+        font-size: .9rem;
+    }
+    .section-heading {
+        text-align: left;
+        margin-bottom: 15px;
+    }
 
-.section-heading h1 {
-    margin-top: 0px;
-    font-size: 32px;
-    color: #232323;
-    display: inline-block;
-    margin-right: 50px;
-}
+    .section-heading h1 {
+        margin-top: 0px;
+        font-size: 32px;
+        color: #232323;
+        display: inline-block;
+        margin-right: 50px;
+    }
 
-.section-heading em {
-    font-style: normal;
-    font-weight: 700;
-    color: #203C89;
-}
+    .section-heading em {
+        font-style: normal;
+        font-weight: 700;
+        color: #203C89;
+    }
 
-.section-heading p {
-    display: inline-block;
-    font-size: 15px;
-    line-height: 26px;
-    color: #343434;
-}
+    .section-heading p {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 26px;
+        color: #343434;
+    }
 
-.white-button a {
-    font-size: 13px;
-    font-weight: 600;
-    color: #203C89;
-    text-transform: capitalize;
-    background-color: #fff;
-    display: inline-block;
-    height: 44px;
-    line-height: 44px;
-    padding: 0px 25px;
-    letter-spacing: 0.25px;
-    text-decoration: none;
-    transition: all 0.3s;
-}
+    .white-button a {
+        font-size: 13px;
+        font-weight: 600;
+        color: #203C89;
+        text-transform: capitalize;
+        background-color: #fff;
+        display: inline-block;
+        height: 44px;
+        line-height: 44px;
+        padding: 0px 25px;
+        letter-spacing: 0.25px;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
 
-.white-button a:hover {
-    background-color: #203C89;
-    color: #fff;
-}
+    .white-button a:hover {
+        background-color: #203C89;
+        color: #fff;
+    }
 
-.accent-button a {
-    font-size: 13px;
-    font-weight: 600;
-    color: #fff;
-    text-transform: capitalize;
-    background-color: #203C89;
-    display: inline-block;
-    height: 44px;
-    line-height: 44px;
-    padding: 0px 25px;
-    letter-spacing: 0.25px;
-    text-decoration: none;
-    transition: all 0.3s;
-}
+    .accent-button a {
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: capitalize;
+        background-color: #203C89;
+        display: inline-block;
+        height: 44px;
+        line-height: 44px;
+        padding: 0px 25px;
+        letter-spacing: 0.25px;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
 
-.accent-button a:hover {
-    background-color: #fff;
-    color: #203C89;
-}
+    .accent-button a:hover {
+        background-color: #fff;
+        color: #203C89;
+    }
 
-header {
-    position: fixed;
-    top: 0;
-    transition: top 0.3s ease-in-out;
-    width: 100%;
-}
+    header {
+        position: fixed;
+        top: 0;
+        transition: top 0.3s ease-in-out;
+        width: 100%;
+    }
 
-.nav-up {
-    top: -75px;
+    .nav-up {
+        top: -75px;
+    }
 }
-
 /* Responsive Navigation */
 
 .responsive-nav {
