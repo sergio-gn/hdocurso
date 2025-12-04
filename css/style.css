@@ -70,22 +70,29 @@ p {
     }
 }
 @media(orientation: portrait){
-    .hero_description{
-        position: unset;
-        right: unset;
-        max-width: unset;
-        width: unset;
+    .internal_links{
+        width: 100%;
+        justify-items: unset;
     }
-    .internal_links_row{
-        flex-direction: column;
-        gap: 1rem;
+    .content-section.internal_links_row{
+        padding:25px;
     }
-    .content-section {
-        padding: 1rem 25px;
-    }
-    .slider{
-        margin-top: 6rem;
-    }
+}
+.hero_description{
+    position: unset;
+    right: unset;
+    max-width: unset;
+    width: unset;
+}
+.internal_links_row{
+    flex-direction: column;
+    gap: 1rem;
+}
+.content-section {
+    padding: 1rem 25px;
+}
+.slider{
+    margin-top: 6rem;
 }
 .open_badge{
     color: rgb(0, 128, 0);
@@ -924,7 +931,7 @@ ul.slick-dots {
 #blog .tabs li {
     display: inline-block;
     text-align: center;
-    width: 33.33%;
+    width: 25%;
     float: left;
     margin: 0;
     padding: 0;
@@ -1279,6 +1286,9 @@ ul.slick-dots {
 }
 
 @media(orientation:portrait) {
+    .contact-content{
+        padding: 80px 0 0 0;
+    }
     .section-prices{
         flex-direction: column;
     }
@@ -1382,7 +1392,8 @@ ul.slick-dots {
 @media only screen and (max-width: 600px) {
     .timeline {
         margin-left: 30%;
-        max-width: 60%;
+        max-width: 100%;
+        padding: 0px 0px 0px 50px;
     }
 }
 /****** accordion *******/
@@ -1560,7 +1571,7 @@ ul.slick-dots {
     #featured .owl-nav {
         position: absolute;
         display: inline-block;
-        top: -220px;
+        top: -65px;
         right: 0;
     }
     #projects {
@@ -1596,6 +1607,7 @@ ul.slick-dots {
 
 .saudacao {
     text-align: left;
+    padding: 1rem 0 2rem 0;
 }
 .saudacao h3{
     margin-top: 0; 
@@ -1621,4 +1633,9 @@ ul.slick-dots {
     font-style: normal;
     font-weight: 700;
     color: #203C89;
+}
+@media(orientation:portrait){
+        .cursos-paginas {
+        padding-top: 7rem;
+    }
 }
